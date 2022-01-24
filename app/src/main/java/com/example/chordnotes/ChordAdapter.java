@@ -71,7 +71,8 @@ public class ChordAdapter extends RecyclerView.Adapter<ChordAdapter.Viewholder> 
                 
                 Animation slideUp = AnimationUtils.loadAnimation(v.getContext(), R.anim.slide_up);
                 Animation slideDown = AnimationUtils.loadAnimation(v.getContext(), R.anim.slide_down);
-    
+
+
                 if (hasFocus){
                     itemView.findViewById(R.id.chordBackground).setBackgroundColor(Color.parseColor("#FF0000"));
                     if(editToolbar.getVisibility()==View.INVISIBLE) {
